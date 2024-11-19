@@ -1,3 +1,16 @@
+
+:root {
+    /* Color Codes */
+    --off-black: #1A1A19;
+    --off-white: #FAFAFA;
+    --pastel-green-light: #D6EFD8;
+    --pastel-green: #80AF81;
+    --pastel-green-dark: #508D4E;
+
+    /* Root Styles */
+    font-size: 16px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -53,8 +66,11 @@ footer {
 
 #services {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+
+}
+
+.service-image {
+    width: 100px;
 }
 
 .footer-left {
