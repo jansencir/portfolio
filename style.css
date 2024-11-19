@@ -142,6 +142,7 @@ footer {
     height: 4rem;
     position: sticky;
     top: 0;
+    border-bottom: 0.1rem solid #FAFAFA50;
 }
 
 .my-name {
@@ -170,15 +171,15 @@ footer {
 }
 
 #container > div {
-    outline: 1px solid red;
-    border: 1px solid red;
+    /* outline: 1px solid red;
+    border: 1px solid red; */
     justify-content: center;
 }
 
 #nav-bar,
 footer {
     display: flex;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     justify-content: space-between;
 }
 
@@ -266,7 +267,7 @@ footer {
 
 .service {
     width: 22rem;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .service-title,
@@ -301,9 +302,36 @@ footer {
     background-color: var(--pastel-green);
     color: var(--off-white);
     text-align: center;
+    height: 20rem;
+}
+
+footer {
+    background-color: var(--off-black);
+    color: var(--off-white);
+    font-size: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .footer-left {
     display: flex;
     flex-direction: column;
+}
+
+.footer-left > a {
+    margin-bottom: 0.5rem;
+}
+
+.footer-left > a,
+.footer-left > a:visited {
+    color: var(--off-white);
+    text-decoration: none;
+}
+
+.footer-left > a:hover {
+    color: var(--pastel-green);
+}
+
+.self-credit {
+    margin: 0 0 0.5rem 0;
 }
