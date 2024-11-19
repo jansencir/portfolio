@@ -340,6 +340,11 @@ textarea {
     height: 7rem;
 }
 
+form > button {
+    margin-top: 1rem;
+    width: 6rem;
+}
+
 footer {
     background-color: var(--off-black);
     color: var(--off-white);
