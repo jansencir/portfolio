@@ -312,6 +312,34 @@ footer {
     padding-bottom: 1.5rem;
 }
 
+#form-container {
+    background-color: var(--pastel-green-dark);
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    width: 36rem;
+    /* height: 15rem; */
+    padding: 1rem;
+    outline: 0.075rem solid var(--off-white);
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+form > div > input,
+textarea {
+    width: 25rem;
+    padding: 0.15rem 0.25rem;
+}
+
+textarea {
+    resize: none;
+    height: 7rem;
+}
+
 footer {
     background-color: var(--off-black);
     color: var(--off-white);
