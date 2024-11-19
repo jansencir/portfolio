@@ -257,7 +257,6 @@ footer {
 .header {
     font-size: var(--fs-header);
     font-weight: 700;
-    text-decoration: underline;
 }
 
 #service-container {
@@ -296,6 +295,12 @@ footer {
 
 .my-work-cta {
     font-size: var(--fs-small-text);
+}
+
+#contact {
+    background-color: var(--pastel-green);
+    color: var(--off-white);
+    text-align: center;
 }
 
 .footer-left {
