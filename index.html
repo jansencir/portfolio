@@ -65,22 +65,23 @@
         <div id="contact">
             <h1 class="header">Let's Transform Your Website Today</h1>
             <p class="up-work">Found me on UpWork? <a href="">Reach out to me there!</a></p>
-            <form action="https://formspree.io/f/xanybere" method="POST">
-                <label>
-                    Your name:
-                    <input type="text" name="name" required>
-                </label>
-                <label>
-                    Your email:
-                    <input type="email" name="email" required>
-                </label>
-                <label>
-                Your message:
-                <textarea name="message" required></textarea>
-                </label>
-                <!-- your other form fields go here -->
-                <button type="submit">Send</button>
-            </form>
+            <div id="form-container">
+                <form action="https://formspree.io/f/xanybere" method="POST">
+                    <div>
+                        <label for="name">Your name:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Your email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Your message:</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
     </div>
 
