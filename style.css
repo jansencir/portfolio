@@ -290,6 +290,14 @@ footer {
     object-fit: cover;
 }
 
+#my-work {
+    text-align: center;
+}
+
+.my-work-cta {
+    font-size: var(--fs-small-text);
+}
+
 .footer-left {
     display: flex;
     flex-direction: column;
