@@ -17,6 +17,44 @@ body {
     box-sizing: border-box;
 }
 
+#nav-bar,
+#container,
+footer {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+#nav-bar {
+    background-color: var(--off-black);
+    height: 4rem;
+    position: sticky;
+    top: 0;
+}
+
+.my-name {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.my-work {
+    margin: 0;
+}
+
+#nav-bar > div > a:visited,
+#nav-bar > div > a {
+    color: var(--off-white);
+    text-decoration: none;
+}
+
+#nav-bar > div > a:hover {
+    color: var(--pastel-green);
+}
+
+.nav-right {
+    display: flex;
+    gap: 3rem;
+}
+
 #container > div {
     outline: 1px solid red;
     border: 1px solid red;
