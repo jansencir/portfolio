@@ -426,6 +426,42 @@ form > button {
     object-fit: cover;
 }
 
+/* Contact Page Styles */
+#contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#contact-content {
+    height: 32rem;
+    width: 60rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--pastel-green-dark);
+    /* outline: 1px solid red; */
+}
+
+.desk-img {
+    height: 32rem;
+}
+
+.contact-links > p > a:visited {
+    color: var(--pastel-green-dark);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 34rem;
+}
+
+.contact-info > .header {
+    padding: 0;
+}
+
 /* Footer Styles */
 footer {
     background-color: var(--off-black);
