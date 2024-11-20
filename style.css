@@ -161,19 +161,27 @@ footer {
     margin: 0;
 }
 
-#nav-bar > div > a:visited,
-#nav-bar > div > a {
+.nav-left > a {
     color: var(--off-white);
     text-decoration: none;
-}
-
-#nav-bar > div > a:hover {
-    color: var(--pastel-green);
 }
 
 .nav-right {
     display: flex;
     gap: 3rem;
+}
+
+.nav-link {
+    color: var(--off-white);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--pastel-green);
+}
+
+.current-page {
+    border-bottom: 0.15rem solid var(--off-white);
 }
 
 #container > div {
@@ -297,7 +305,6 @@ footer {
 
 #sample-container {
     display: flex;
-    /* width: 80rem; */
     justify-content: center;
     margin: 0 auto;
     gap: 1rem;
