@@ -410,7 +410,7 @@ form > button {
 }
 
 .seo-blogs > .image-container > img {
-    height: 52rem;
+    height: 40rem;
     object-fit: cover;
 }
 
@@ -419,7 +419,7 @@ form > button {
 }
 
 .content-articles > .image-container > img {
-    height: 47rem;
+    height: 36rem;
     object-fit: cover;
 }
 
