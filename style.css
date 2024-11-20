@@ -365,12 +365,24 @@ form > button {
 .main-header {
     background-color: var(--pastel-green-light);
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .section-note {
     font-size: var(--fs-small-text);
 }
+
+.main-header > .section-note {
+    color: var(--pastel-green);
+}
+
+#projects-container > div {
+    margin: 4rem auto;
+}
+
+#projects-container > div > .header {
+    color: var(--pastel-green-dark);
+}
+
 
 #projects-container > div > img,
 #projects-container > div > div > img {
@@ -400,6 +412,15 @@ form > button {
 
 .seo-blogs > .image-container > img {
     height: 52rem;
+    object-fit: cover;
+}
+
+.content-articles {
+    text-align: center;
+}
+
+.content-articles > .image-container > img {
+    height: 47rem;
     object-fit: cover;
 }
 
