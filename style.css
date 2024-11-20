@@ -115,6 +115,7 @@
     --pastel-green-light: #D6EFD8;
     --pastel-green: #80AF81;
     --pastel-green-dark: #508D4E;
+    --shadow: #1A1A1985;
 
     /* Root Styles */
     font-size: 16px;
@@ -294,7 +295,7 @@ footer {
     height: 12.5rem;
     width: 22rem;
     object-fit: cover;
-    box-shadow: 0 0.2rem 0.5rem var(--off-black);
+    box-shadow: 0 0.2rem 0.5rem var(--shadow);
 }
 
 #my-work {
@@ -314,7 +315,7 @@ footer {
 #sample-container > img {
     width: 35rem;
     object-fit: contain;
-    box-shadow: 0 0.1rem 0.6rem var(--off-black);
+    box-shadow: 0 0.1rem 0.6rem var(--shadow);
 }
 
 .work-cta {
@@ -375,17 +376,19 @@ form > button {
     color: var(--pastel-green);
 }
 
-#projects-container > div {
-    margin: 4rem auto;
-}
-
 #projects-container > div > .header {
     color: var(--pastel-green-dark);
 }
 
 #projects-container > div > img,
 #projects-container > div > div > img {
-    box-shadow: 0 1px 1px black;
+    box-shadow: 0 0.1rem 0.25rem var(--shadow);
+}
+
+.web-pages,
+.seo-blogs,
+.content-articles {
+    margin: 3rem auto;
 }
 
 .web-pages {
