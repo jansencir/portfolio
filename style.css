@@ -371,7 +371,7 @@ form > button {
     font-size: var(--fs-small-text);
 }
 
-.main-header > .section-note {
+.section-note {
     color: var(--pastel-green);
 }
 
@@ -382,7 +382,6 @@ form > button {
 #projects-container > div > .header {
     color: var(--pastel-green-dark);
 }
-
 
 #projects-container > div > img,
 #projects-container > div > div > img {
