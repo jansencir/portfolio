@@ -164,6 +164,16 @@ footer {
     margin: 0;
 }
 
+#my-work > a,
+#my-work > a:visited {
+    color: var(--pastel-green-dark);
+}
+
+.up-work > a,
+.up-work > a:visited {
+    color: var(--off-white);
+}
+
 .nav-left > a {
     color: var(--off-white);
     text-decoration: none;
@@ -419,6 +429,7 @@ form > button {
 
 .content-articles {
     text-align: center;
+    margin-bottom: 6em;
 }
 
 .content-articles > .image-container > img {
