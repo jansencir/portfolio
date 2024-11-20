@@ -372,6 +372,11 @@ form > button {
     font-size: var(--fs-small-text);
 }
 
+#projects-container > div > img,
+#projects-container > div > div > img {
+    box-shadow: 0 1px 1px black;
+}
+
 .web-pages {
     display: flex;
     flex-direction: column;
@@ -381,6 +386,21 @@ form > button {
 
 .web-pages > img {
     width: 40rem;
+}
+
+.seo-blogs {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.seo-blogs > .image-container > img {
+    height: 52rem;
+    object-fit: cover;
 }
 
 /* Footer Styles */
