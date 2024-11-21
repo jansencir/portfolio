@@ -191,6 +191,10 @@ header ul a {
     color: var(--off-white);
 }
 
+.current-page {
+    border-bottom: 0.15rem solid var(--off-white);
+}
+
 /* Hamburger Menu - Close */
 .mobile {
     display: block;
