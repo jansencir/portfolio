@@ -198,8 +198,20 @@ footer {
 }
 
 
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid red;
+}
+
+.services,
+.contact {
+    width: 100vw;
+}
+
 /* Home Page Styles */
-#hero {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,7 +273,7 @@ footer {
     font-weight: 600;
 }
 
-#services {
+.services {
     display: flex;
     flex-direction: column;
     background-color: var(--pastel-green-light);
@@ -332,7 +344,7 @@ footer {
     font-size: var(--fs-small-text);
 }
 
-#contact {
+.contact {
     background-color: var(--pastel-green);
     color: var(--off-white);
     text-align: center;
@@ -504,3 +516,14 @@ footer {
 .self-credit {
     margin: 0 0 0.5rem 0;
 }
+
+/* Media Queries */
+/* XS, min-width: 360px */
+
+/* S, min-width: 480px */
+
+/* M, min-width: 720px */
+
+/* L, min-width: 1020px */
+
+/* XL, min-width: 1280px */
