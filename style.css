@@ -206,14 +206,16 @@ footer {
     text-decoration: none;
 }
 
-.nav-right {
-    display: flex;
-    gap: 3rem;
+nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .nav-link {
     color: var(--off-white);
     text-decoration: none;
+    margin-left: 2rem;
 }
 
 .nav-link:hover {
@@ -521,9 +523,6 @@ footer {
 
 /* Media Queries */
 /* XS, min-width: 360px */
-@media (min-width: 360px) {
-    
-}
 
 /* S, min-width: 480px */
 
