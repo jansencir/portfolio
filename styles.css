@@ -135,6 +135,7 @@
 
 body {
     background-color: var(--off-white);
+    color: var(--off-black)
 }
 
 /* Navigation Bar */
@@ -331,6 +332,24 @@ header ul a {
 
 .service {
     padding-bottom: 1.5rem;
+}
+
+.samples img {
+    min-height: 250px;
+    max-height: 448px;
+    width: 90vw;
+    overflow: hidden;
+    object-fit: cover;
+    padding-bottom: 1rem;
+}
+
+.projects-page-cta {
+    font-size: var(--fs-small-text);
+}
+
+.projects-page-cta a,
+.projects-page-cta a:visited {
+    color: var(--off-black);
 }
 
 /* Media Queries */
