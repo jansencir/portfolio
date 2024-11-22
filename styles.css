@@ -294,6 +294,10 @@ header ul a {
     padding-right: 5vw;
 }
 
+img {
+    box-shadow: 0 2px 5px var(--shadow);;
+}
+
 /* Hero */
 .hero img {
     width: 160px;
