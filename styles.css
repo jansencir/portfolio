@@ -294,7 +294,7 @@ header ul a {
     padding-right: 5vw;
 }
 
-img {
+img:not(.intro-img) {
     box-shadow: 0 2px 5px var(--shadow);;
 }
 
@@ -338,6 +338,7 @@ img {
     padding-bottom: 1.5rem;
 }
 
+/* Samples */
 .samples img {
     min-height: 250px;
     max-height: 448px;
@@ -354,6 +355,22 @@ img {
 .projects-page-cta a,
 .projects-page-cta a:visited {
     color: var(--off-black);
+}
+
+/* Contact */
+.contact {
+    background-color: var(--pastel-green);
+    text-align: center;
+    color: var(--off-white);
+}
+
+.up-work {
+    padding: 1rem 0;
+}
+
+.up-work a,
+.up-work a:visited {
+    color: var(--off-white);
 }
 
 /* Media Queries */
