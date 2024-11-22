@@ -373,6 +373,36 @@ img:not(.intro-img) {
     color: var(--off-white);
 }
 
+.contact form {
+    background-color: var(--pastel-green-dark);
+    border: 1px solid var(--off-white);
+    min-width: 80vw;
+    max-width: 500px;
+    padding: 0.5rem 1rem;
+}
+
+.contact form div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact form div input,
+textarea {
+    padding: 0.25rem 0.5rem;
+    width: 100%;
+}
+
+textarea {
+    height: 5rem;
+    resize: vertical;
+}
+
+.contact form button {
+    margin: 0.875rem;
+    width: 8rem;
+}
+
 /* Media Queries */
 @media (min-width: 720px) {
     nav {
@@ -381,5 +411,9 @@ img:not(.intro-img) {
 
     .mobile {
         display: none;
+    }
+
+    .contact form {
+        min-width: 575px;
     }
 }
