@@ -345,7 +345,7 @@ img:not(.intro-img) {
     width: 90vw;
     overflow: hidden;
     object-fit: cover;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .projects-page-cta {
@@ -407,7 +407,7 @@ footer {
     background-color: var(--off-black);
     color: var(--off-white);
     font-size: var(--fs-small-text);
-    padding: 5vw;
+    padding: 1.5rem 5vw;
 }
 
 footer a {
@@ -435,7 +435,45 @@ footer a {
         display: none;
     }
 
+    .services img {
+        width: 360px;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .samples img {
+        min-height: 480px;
+        max-height: none;
+    }
+
     .contact form {
         min-width: 575px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-right {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 1020px) {
+    /* turn hero into that grid layout */
+
+    .service-container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .services img {
+        width: 30vw;
+    }
+
+    .samples img {
+        width: 44vw;
+        min-height: 350px;
     }
 }
