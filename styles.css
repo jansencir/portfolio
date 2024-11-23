@@ -423,6 +423,38 @@ footer a {
     padding-top: 1rem;
 }
 
+/* Projects Page */
+.projects-container {
+    outline: 1px solid red;
+    text-align: center;
+}
+
+.projects-container > div {
+    /* outline: 1px solid red; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.projects-container img {
+    width: 95vw;
+    margin-top: 0.5rem;
+}
+
+.projects-page-header {
+    background-color: var(--pastel-green-light);
+}
+
+.web-pages .header,
+.seo-blogs .header,
+.content-articles .header {
+    color: var(--pastel-green-dark);
+}
+
+.section-note {
+    color: var(--pastel-green);
+    font-size: var(--fs-small-text);
+}
+
 /* Media Queries */
 @media (min-width: 720px) {
     nav {
