@@ -264,8 +264,6 @@ header ul a {
 
 /* Global Styles */
 .container {
-    outline: 1px solid red;
-
     margin: 0 auto;
     width: 90vw;
     display: flex;
@@ -461,11 +459,14 @@ footer a {
 }
 
 @media (min-width: 1020px) {
-    /* turn hero into that grid layout */
-
     .service-container {
         display: flex;
         gap: 1rem;
+    }
+
+    .service-container,
+    .sample-container {
+        margin-top: 0.875rem;
     }
 
     .services img {
