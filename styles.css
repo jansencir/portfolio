@@ -459,6 +459,18 @@ footer a {
     min-width: 50vw;
 }
 
+/* Contact Page */
+.contact-container {
+    max-width: 90vw;
+    margin: 1rem auto;
+}
+
+.desk-img {
+    width: 90vw;
+    height: 250px;
+    object-fit: cover;
+}
+
 /* Media Queries */
 @media (min-width: 720px) {
     nav {
