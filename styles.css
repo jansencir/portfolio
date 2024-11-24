@@ -430,13 +430,13 @@ footer a {
 }
 
 .projects-container > div {
-    /* outline: 1px solid red; */
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
 .projects-container img {
     width: 95vw;
+    max-width: 500px;
     margin-top: 0.5rem;
 }
 
@@ -453,6 +453,10 @@ footer a {
 .section-note {
     color: var(--pastel-green);
     font-size: var(--fs-small-text);
+}
+
+.web-pages img {
+    min-width: 50vw;
 }
 
 /* Media Queries */
@@ -508,5 +512,9 @@ footer a {
     .samples img {
         width: 44vw;
         min-height: 350px;
+    }
+
+    .projects-container img {
+        max-width: 30vw;
     }
 }
