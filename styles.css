@@ -269,8 +269,8 @@ header ul a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
 }
 
 .make-green {
