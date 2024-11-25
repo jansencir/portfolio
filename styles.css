@@ -336,6 +336,20 @@ img:not(.intro-img) {
     padding-bottom: 1.5rem;
 }
 
+/* About Me */
+.about img {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    height: 320px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.about-me p {
+    margin-top: 1rem;
+}
+
 /* Samples */
 .samples img {
     min-height: 250px;
@@ -550,6 +564,31 @@ footer a {
 
     .services img {
         width: 30vw;
+    }
+    
+    .about-me-content {
+        display: flex;
+        justify-content: space-evenly;
+        width: 1050px;
+    }
+
+    .about img {
+        margin: 0;
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        object-position: 50% 20%;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 600px;
+    }
+
+    .about-me p {
+        margin-top: 0;
     }
 
     .samples img {
