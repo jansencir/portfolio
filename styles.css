@@ -532,6 +532,25 @@ footer a {
         object-fit: cover;
     }
 
+    .service-description {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+
+    .about img {
+        display: block;
+        margin: 0 auto;
+        width: 225px;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50% 20%;
+    }
+
+    .about-me p {
+        max-width: 650px;
+    }
+
     .samples img {
         min-height: 480px;
         max-height: none;
